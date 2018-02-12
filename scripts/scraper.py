@@ -64,3 +64,5 @@ chooseyear('-1')
 # Export to json
 with open('data/ipedsfiles.json', 'w') as fp:
     json.dump(files, fp)
+
+driver.close()
